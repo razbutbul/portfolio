@@ -1,0 +1,51 @@
+.navbar {
+  padding: 40px;
+  border-radius: 10px;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.navbar ul li {
+  display: inline;
+}
+
+.navbar ul li button {
+  background-color: #00eaff96;
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  margin: 25px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.navbar ul li button:hover {
+  background-color: #02020221;
+  color: white;
+}
+
+.navbar ul li button:focus {
+  outline: none;
+}
+@media (max-width: 768px) {
+  .navbar ul li button {
+    padding: 8px 15px; 
+    margin: 20px; 
+    font-size: 14px; /
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar ul li button {
+    padding: 6px 10px;
+    margin: 15px; 
+    font-size: 14px; 
+  }
+}
